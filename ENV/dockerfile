@@ -1,4 +1,4 @@
 FROM almalinux:9
 ENV corse ="Devops with AWs" \
     trainer ="sivakumar" \
-     duration ="120hrs" 
+     duration ="120hrs"
