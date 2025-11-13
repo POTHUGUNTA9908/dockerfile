@@ -3,5 +3,5 @@ ENV corse ="Devops with AWs" \
     trainer ="sivakumar" \
      duration ="120hrs"
 ARG ${username:- some_user}
-RUN echo "Hello ${trainer}" > /tmp/devops.txt
+RUN echo "Hello ${username}" > /tmp/devops.txt
 CMD ["sleep","100"]
